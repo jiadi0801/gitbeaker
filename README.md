@@ -9,9 +9,9 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Code Style: Prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)
-[![Install Size:Core](https://packagephobia.now.sh/badge?p=@gitbeaker/core)](https://packagephobia.now.sh/result?p=@gitbeaker/core)
-[![Install Size:Browser](https://packagephobia.now.sh/badge?p=@gitbeaker/browser)](https://packagephobia.now.sh/result?p=@gitbeaker/browser)
-[![Install Size:CLI](https://packagephobia.now.sh/badge?p=@gitbeaker/cli)](https://packagephobia.now.sh/result?p=@gitbeaker/cli)
+[![Install Size: Core](https://packagephobia.now.sh/badge?p=@gitbeaker/core)](https://packagephobia.now.sh/result?p=@gitbeaker/core)
+[![Install Size: Browser](https://packagephobia.now.sh/badge?p=@gitbeaker/browser)](https://packagephobia.now.sh/result?p=@gitbeaker/browser)
+[![Install Size: CLI](https://packagephobia.now.sh/badge?p=@gitbeaker/cli)](https://packagephobia.now.sh/result?p=@gitbeaker/cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jdalrymple/gitbeaker/blob/master/LICENSE.md)
 
 ![](.github/ASSETS/header.svg)
@@ -119,7 +119,7 @@ This could be set globally or using a [.env](https://github.com/motdotla/dotenv#
 The library is exported as `gitlab` and can be used by simply adding this script to your html file:
 
 ```html
-<script src="node_modules/gitlab/dist/index.browser.js" />
+<script src="node_modules/@gitbeaker/browser/index.js" />
 <script>
   const { Gitlab } = gitlab;
 
@@ -508,13 +508,13 @@ fs.writeFileSync("test.zip", bufferedData);
 To get this running locally rather than from your `node_modules` folder:
 
 ```bash
-$ git clone https://github.com/jdalrymple/node-gitlab.git
-$ cd node-gitlab
+$ git clone https://github.com/jdalrymple/gitbeaker.git
+$ cd gitbeaker
 $ npm install
 $ npm run-script build
 ```
 
-And then inside whatever project you are using `node-gitlab` in you change your references to use that repo. In your package.json of that upstream project change:
+And then inside whatever project you are using `gitbeaker` in you change your references to use that repo. In your package.json of that upstream project change:
 
 ```json
 "dependencies": {
@@ -567,7 +567,7 @@ PERSONAL_ACCESS_TOKEN='abcdefg' GITLAB_URL='http://localhost:8080' npm run test
 
 ## Contributors
 
-This started as a fork from [node-gitlab](https://github.com/node-gitlab/node-gitlab) but I ended up rewriting much of the code. Here are the original work's [contributors](https://github.com/node-gitlab/node-gitlab#contributors).
+This started as a fork from [node-gitlab-legacy](https://github.com/node-gitlab/node-gitlab-legacy) but I ended up rewriting much of the code. Here are the original work's [contributors](https://github.com/node-gitlab/node-gitlab-legacy#contributors).
 
 - [Dylan DesRosier](https://github.com/ddesrosier)
 - [Mike Wyatt](https://github.com/mikew)
@@ -623,8 +623,8 @@ This started as a fork from [node-gitlab](https://github.com/node-gitlab/node-gi
 
 ## License
 
-[MIT](https://github.com/jdalrymple/node-gitlab/blob/master/LICENSE.md)
+[MIT](https://github.com/jdalrymple/gitbeaker/blob/master/LICENSE.md)
 
 ## Changelog
 
-[Here](https://github.com/jdalrymple/node-gitlab/blob/master/CHANGELOG.md)
+[Here](https://github.com/jdalrymple/gitbeaker/blob/master/CHANGELOG.md)
