@@ -12,7 +12,7 @@
 [![Install Size](https://packagephobia.now.sh/badge?p=gitlab)](https://packagephobia.now.sh/result?p=gitbeaker)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jdalrymple/gitbeaker/blob/master/LICENSE.md)
 
-[!](.github/ASSETS/header.svg)
+![](.github/ASSETS/header.svg)
 
 🤖 [GitLab](https://gitlab.com/gitlab-org/gitlab/) API NodeJS library with full support of all the [Gitlab API](https://gitlab.com/gitlab-org/gitlab/tree/master/doc/api) services.
 
@@ -40,7 +40,10 @@
 
 ```bash
 # Install from npm
-npm install gitlab
+npm install @gitbeaker/core    # Nodejs
+npm install @gitbeaker/browser # Browser
+npm install @gitbeaker/cli     # CLI
+
 ```
 
 ## Getting Started
