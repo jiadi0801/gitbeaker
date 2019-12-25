@@ -1,18 +1,18 @@
-[![npm @latest](https://img.shields.io/npm/v/gitlab.svg)](https://www.npmjs.com/package/gitlab)
-[![npm downloads](https://img.shields.io/npm/dt/gitlab.svg)](https://www.npmjs.com/package/gitlab)
-[![dependencies Status](https://david-dm.org/jdalrymple/node-gitlab/status.svg)](https://david-dm.org/jdalrymple/node-gitlab)
-[![devDependencies Status](https://david-dm.org/jdalrymple/node-gitlab/dev-status.svg)](https://david-dm.org/jdalrymple/node-gitlab?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/jdalrymple/node-gitlab.svg)](https://greenkeeper.io/)
-[![Code Climate](https://codeclimate.com/github/jdalrymple/node-gitlab/badges/gpa.svg)](https://codeclimate.com/github/jdalrymple/node-gitlab)
-[![Build Status](https://img.shields.io/travis/jdalrymple/node-gitlab/master.svg)](https://travis-ci.org/jdalrymple/node-gitlab)
-[![Coverage](https://img.shields.io/codecov/c/github/jdalrymple/node-gitlab/master.svg)](https://codecov.io/gh/jdalrymple/node-gitlab)
+[![npm @latest](https://img.shields.io/npm/v/@gitbeaker/core.svg)](https://www.npmjs.com/package/@gitbeaker/core)
+[![npm downloads](https://img.shields.io/npm/dt/@gitbeaker/core.svg)](https://www.npmjs.com/package/@gitbeaker/core)
+[![dependencies Status](https://david-dm.org/jdalrymple/gitbeaker/status.svg)](https://david-dm.org/jdalrymple/gitbeaker)
+[![devDependencies Status](https://david-dm.org/jdalrymple/gitbeaker/dev-status.svg)](https://david-dm.org/jdalrymple/gitbeaker?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jdalrymple/gitbeaker.svg)](https://greenkeeper.io/)
+[![Code Climate](https://codeclimate.com/github/jdalrymple/gitbeaker/badges/gpa.svg)](https://codeclimate.com/github/jdalrymple/gitbeaker)
+[![Build Status](https://img.shields.io/travis/jdalrymple/gitbeaker/master.svg)](https://travis-ci.org/jdalrymple/gitbeaker)
+[![Coverage](https://img.shields.io/codecov/c/github/jdalrymple/gitbeaker/master.svg)](https://codecov.io/gh/jdalrymple/gitbeaker)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Code Style: Prettier](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg)
-[![Install Size](https://packagephobia.now.sh/badge?p=gitlab)](https://packagephobia.now.sh/result?p=gitlab)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jdalrymple/node-gitlab/blob/master/LICENSE.md)
+[![Install Size](https://packagephobia.now.sh/badge?p=gitlab)](https://packagephobia.now.sh/result?p=gitbeaker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jdalrymple/gitbeaker/blob/master/LICENSE.md)
 
-# node-gitlab
+[!](.github/ASSETS/header.svg)
 
 🤖 [GitLab](https://gitlab.com/gitlab-org/gitlab/) API NodeJS library with full support of all the [Gitlab API](https://gitlab.com/gitlab-org/gitlab/tree/master/doc/api) services.
 
